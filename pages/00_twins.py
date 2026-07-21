@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 DATA_FILE = "202606_202606_연령별인구현황_월간.csv"
-DATA_PATH = Path(__file__).parent / DATA_FILE
+DATA_PATH = Path(__file__).parent.parent / DATA_FILE
 
 
 # --------------------------------------------------
